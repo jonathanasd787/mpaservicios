@@ -1,0 +1,200 @@
+body 
+{
+   /* Este es un comentario */ 
+   margin: 0 auto;
+   height: 768px;
+   width: 1366px;
+   /*background:url(../Imagenes/gris.jpeg) repeat-y;*/
+   background: linear-gradient(to left,black,gray);
+}
+#baner 
+{
+    height: 100px;
+    width: 1366px;
+    background:blue;
+   /* background:url(../Imagenes/baner2.jpg) repeat-y;*/
+    float: left;
+}
+
+#logo
+{
+    height: 50px;
+    width: 150px;
+    margin: 10px 50px;
+    float: left;
+    
+
+}
+
+
+#menu 
+{
+    height: 170px;
+    width: 1356px;
+    background:black;
+    padding-left: 0px;
+          
+}
+
+ul, ol
+{
+    list-style: none;
+}
+
+.nav li a 
+{
+    background-color: black ;
+    color: antiquewhite;
+    text-decoration:none ;
+    padding:25px 45px;
+    display: block;
+    /*Bloques del menu*/
+}
+
+.nav li a:hover 
+{
+    background-color:#434343;
+}
+
+.nav > li
+{
+    float: left;
+}
+
+.nav li ul li a 
+{
+    margin-left: -40px;
+}
+
+.nav li ul 
+{
+    display:none ;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul
+{
+    display: block;
+}
+
+.nav li ul li 
+{
+    position: relative;
+   
+}
+
+.nav li ul li ul 
+{
+    right: -140px;
+    top: 0px;
+   
+}
+ol#menu
+{
+    list-style: none;
+}
+ul#menu li a 
+{
+    background: gold;
+    color: salmon;
+    padding: 15px 50 px;
+    text-decoration: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+ul#menu li a :hover
+{
+    background: blue;
+}
+
+#contenido 
+{
+    height: 468px;
+    width: 1366px;
+    background:rgb(109, 75, 230);
+    overflow:auto;
+    float: left;
+}
+
+#pie_pag 
+{
+    height: 100px;
+    width: 1366px;
+    background:navy;
+    float: left;
+    overflow:auto;
+}
+
+#izq
+{
+    height: 468px;
+    width: 350px;
+    background:yellow;
+    float: left; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22;
+    overflow:auto;
+   
+}
+
+#c1
+{
+    height: 100px;
+    width: 666px;
+    background:gray;
+    float: left;
+    padding-bottom: 15;
+    font-weight: bold; /*texto en negritas*/
+    font-style: italic; /*texto en italika*/
+    font:bold 12px/1.5 Times,Helvetica;
+}
+
+#c2
+{
+    height: 368px;
+    width: 333px;
+    background:greenyellow;
+    float: left;
+    overflow:auto;
+    padding-left: 5;
+    padding-right: 5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-variant: small-caps; /*letras mayusculas con tamaño en minusculas*/
+    text-align: center ;
+   
+
+    
+}
+
+#c3
+{
+    height: 368px;
+    width: 333px;
+    background:rgb(226, 22, 22);
+    float: left;
+    overflow:auto;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 18; /*Tamaño de letra*/
+    line-height: 1.5; /* interlineado */
+    text-transform: uppercase;
+    
+}
+
+#der
+{
+    height: 468px;
+    width: 350px;
+    background:rgba(0, 255, 85, 0.623);
+    float: left; 
+}
+
+table td 
+{
+    text-align: center;
+    width: 80px;
+}
